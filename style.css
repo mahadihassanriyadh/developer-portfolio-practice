@@ -52,3 +52,28 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+div #exp{
+    margin-left: 2%;
+}
+
+.box-style{
+    margin: 5%;
+    padding: 2%;
+}
+
+#full-stack-box{
+    border-left: 10px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 30px grey;
+    border-image: linear-gradient(rgb(255, 115, 0), yellow) 1;
+    
+}
+
+#jun-web-box{
+    border-left: 10px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 30px grey;
+    border-image: linear-gradient(rgb(25, 0, 255), rgb(0, 238, 255)) 1;
+
+}
