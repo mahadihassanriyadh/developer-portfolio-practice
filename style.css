@@ -4,7 +4,43 @@
 body{
     font-family: 'Noto Sans KR', sans-serif;
     /* font-family: 'Zen Loop', cursive; */
+    margin: 0;
 }
 h1{
     font-size: 350%;
+}
+
+.flexible-style{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.half-width p{
+    text-align: justify;
+}
+
+.half-width img{
+    width: 85%;
+}
+
+.button-one{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(255, 145, 0), #fce270);
+    font-size: 200%;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid none;
+    box-shadow: 0 0 15px rgb(124, 124, 124);
+}
+
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
