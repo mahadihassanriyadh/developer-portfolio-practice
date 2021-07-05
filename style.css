@@ -1,0 +1,10 @@
+.orange-color{
+    color: rgb(255, 145, 0);
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Zen Loop', cursive; */
+}
+h1{
+    font-size: 350%;
+}
